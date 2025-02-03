@@ -18,8 +18,8 @@ hold on;
 plot(X_fine, Y_poly1, '-b', 'LineWidth', 2, 'DisplayName', 'Degree 1 Polynomial Fit');
 
 grid on;
-xlabel('Voltage(emf)');
-ylabel('△T(°C)');
-title('Voltage(emf)vsTemperature(°C)');
+xlabel('△T(°C)');
+ylabel('Voltage(emf)');
+title('Voltage(emf) vs Temperature(°C)');
 legend show;
 hold off;
